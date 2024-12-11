@@ -4,5 +4,5 @@ import * as dotenv from 'dotenv';
 
 // please note that the types are reversed
 export const socket: Socket<ServerToClientEvents, ClientToServerEvents> = io(
-  'https://quizappback.onrender.com:10000'
+  'https://quizappback.onrender.com'
 );
